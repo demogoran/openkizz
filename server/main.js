@@ -1,6 +1,6 @@
 const fastify = require('fastify')({ logger: false })
 const path = require('path')
-const simpleGit = require('simple-git')();
+
 
 fastify.register(require('fastify-static'), {
     root: path.join(__dirname, '../dist'),
@@ -12,8 +12,8 @@ fastify.get('/api/getMDHTML', async () => {
     return { hello: 'world' }
 })
 
-fastify.get('/api/saveGit', async (request, reply) => {
-    return { hello: 'world' }
+fastify.get('/api/saveGit', async () => {
+
 })
 
 

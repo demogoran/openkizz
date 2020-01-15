@@ -6,7 +6,8 @@
     "dev": "node server/main.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "push": "git add . && git commit -m \"commit\" && git push origin master"
   },
   "dependencies": {
     "core-js": "^3.4.4",

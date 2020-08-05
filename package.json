@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "core-js": "^3.4.4",
-    "fastify": "^2.11.0",
+    "fastify": "^2.15.1",
     "fastify-static": "^2.5.1",
     "showdown": "^1.9.1",
     "simple-git": "^1.129.0",
